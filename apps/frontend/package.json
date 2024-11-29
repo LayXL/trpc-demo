@@ -1,0 +1,36 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tunnel": "vk-tunnel --http-protocol=http --host=localhost --port=5173",
+    "deploy": "vite build && vk-miniapps-deploy"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.61.3",
+    "@trpc/client": "^11.0.0-rc.643",
+    "@trpc/react-query": "^11.0.0-rc.643",
+    "@vkontakte/icons": "^2.92.0",
+    "@vkontakte/vk-bridge": "^2.13.0",
+    "@vkontakte/vk-bridge-react": "^1.0.1",
+    "@vkontakte/vk-mini-apps-router": "^1.4.2",
+    "@vkontakte/vkui": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^7.0.1",
+    "server": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vkontakte/vk-miniapps-deploy": "^0.1.6",
+    "@vkontakte/vk-tunnel": "^0.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}

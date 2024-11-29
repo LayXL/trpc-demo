@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "trpc-demo",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "dependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
+}
